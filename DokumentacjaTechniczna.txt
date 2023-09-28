@@ -1,0 +1,37 @@
+Calculator Class
+Description
+The Calculator class provides basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+Methods
+1.add(int a, int b)
+
+Description: Adds two integers and returns the result.
+Parameters:
+a (int): The first integer.
+b (int): The second integer.
+Returns: The sum of a and b.
+
+2.subtract(int a, int b)
+
+Description: Subtracts the second integer from the first integer and returns the result.
+Parameters:
+a (int): The first integer.
+b (int): The second integer.
+Returns: The result of a - b.
+
+3.multiply(int a, int b)
+
+Description: Multiplies two integers and returns the result.
+Parameters:
+a (int): The first integer.
+b (int): The second integer.
+Returns: The product of a and b.
+
+4.divide(int a, int b)
+
+Description: Divides the first integer by the second integer and returns the result as a double.
+Parameters:
+a (int): The dividend.
+b (int): The divisor.
+Returns: The result of a / b as a double.
+Throws: IllegalArgumentException if b is zero (division by zero is not allowed).
